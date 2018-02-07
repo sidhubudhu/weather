@@ -41,17 +41,17 @@ $(document).ready(function() {
 
               if (temp < 20) {
                   $('.grey-jumbo').css({
-                      backgroundImage: 'url(https://cdn.pixabay.com/photo/2018/02/06/13/15/sunset-3134706_960_720.jpg)'
+                      backgroundImage: 'url(sunset.jpg)'
                   });
                   $('#temp').html("<h1>It's a pretty cold day...</h1>");
               } else if (temp > 20 && temp < 27) {
                   $('.grey-jumbo').css({
-                      backgroundImage: 'url(https://cdn.pixabay.com/photo/2018/02/06/13/15/turkey-3134702_960_720.jpg)'
+                      backgroundImage: 'url(sunny.jpg)'
                   });
                   $('#temp').html("<h1>It's a sunny day today...</h1>");
               } else {
                   $('.grey-jumbo').css({
-                      backgroundImage: 'url(https://cdn.pixabay.com/photo/2016/01/19/21/41/painting-1150525_960_720.jpg)'
+                      backgroundImage: 'url(hot.jpg)'
                   });
                   $('#temp').html("<h1>It's a pretty cold day...</h1>");
               }
